@@ -1,4 +1,4 @@
-/* Color palette tokens */
+
 :root {
   --deep-navy: #08132b;
   --navy: #071629;
@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-/* Base typography and canvas */
+
 body {
   font-family: 'Source Sans 3', 'Source Sans Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background-color: #f8f9fb;
@@ -28,7 +28,7 @@ body {
   color: var(--purple);
 }
 
-/* Reusable gradient buttons */
+
 .btn-gradient {
   background: linear-gradient(135deg, var(--purple), var(--purple-dark));
   color: #fff;
