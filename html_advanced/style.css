@@ -1,0 +1,185 @@
+/* Color palette tokens */
+:root {
+  --deep-navy: #08132b;
+  --navy: #071629;
+  --purple: #c271ff;
+  --purple-dark: #a052e1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Base typography and canvas */
+body {
+  font-family: 'Source Sans 3', 'Source Sans Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f8f9fb;
+  color: #111;
+}
+
+.letter-spaced {
+  letter-spacing: 0.35em;
+}
+
+/* Accent text color */
+.text-gradient {
+  color: var(--purple);
+}
+
+/* Reusable gradient buttons */
+.btn-gradient {
+  background: linear-gradient(135deg, var(--purple), var(--purple-dark));
+  color: #fff;
+  border: none;
+  box-shadow: 0 10px 25px rgba(194, 113, 255, 0.4);
+}
+
+.btn-gradient:hover {
+  color: #fff;
+  background: linear-gradient(135deg, var(--purple-dark), var(--purple));
+}
+
+/* Hero background gradient + photo */
+.hero {
+  background: linear-gradient(100deg, rgba(7, 22, 41, 0.95), rgba(7, 22, 41, 0.75)),
+    url('../images/image.png') center/cover no-repeat;
+}
+
+/* Adds subtle glow and space at bottom */
+.hero-overlay {
+  background: radial-gradient(circle at top, rgba(194, 113, 255, 0.22), transparent 50%);
+  padding-bottom: 4rem;
+}
+
+/* Keeps hero headline centered vertically */
+.hero-headline {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  line-height: 0.9;
+}
+
+.hero-tags span {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Space between hero and mentor row */
+.hero-learn {
+  padding-bottom: 3rem;
+}
+
+/* Mentor avatars */
+.avatar-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Purple testimonial strip */
+.testimonial {
+  background-color: var(--purple);
+}
+
+.testimonial-avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 6px solid rgba(255, 255, 255, 0.35);
+}
+
+/* Play icon overlay on tutorial thumbnails */
+.play-icon {
+  width: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Tutorial cards */
+.popular-card {
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 25px 35px rgba(6, 21, 39, 0.08);
+  overflow: hidden;
+}
+
+.popular-card .card-img-top {
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+/* Instructor avatar inside cards */
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating img {
+  width: 16px;
+  margin-right: 2px;
+}
+
+/* Dark membership block */
+.membership {
+  background-color: var(--navy);
+}
+
+.membership-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Generic dark background utility */
+.section-dark {
+  background-color: var(--deep-navy);
+}
+
+/* Footer sizing per spec */
+.site-footer {
+  min-height: 249px;
+  display: flex;
+  align-items: center;
+}
+
+.site-footer .container {
+  max-width: 1440px;
+}
+
+/* FAQ headings */
+.faq h5 {
+  color: var(--navy);
+}
+
+.faq p {
+  line-height: 1.8;
+}
+
+/* Utility spacing used on testimonial */
+.py-lg-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Hero adjustments for mobile */
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 3.25rem;
+  }
+
+  .hero-tags {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
