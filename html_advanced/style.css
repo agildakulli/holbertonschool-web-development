@@ -156,50 +156,112 @@ nav {
   opacity: 0.8;
 }
 .tutorials {
-  padding: 80px 0;
+  padding: 90px 0;
   background-color: #ffffff;
   text-align: center;
 }
 
 
 .tutorials-title {
-  font-size: 32px;
+  font-size: 38px;
   margin-bottom: 60px;
   color: #071629;
+  font-weight: 300;
 }
 
 
 .tutorials-wrapper {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 
 .tutorial-card {
-  width: 22%;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 1%;
+  flex: 1 1 230px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  min-width: 0;
   text-align: left;
 }
 
 
-.tutorial-card img {
+.tutorial-card > img:first-of-type {
   width: 100%;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  display: block;
+  border-radius: 14px 14px 0 0;
 }
 
 
 .tutorial-card h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  color: #071629;
+  margin: 25px 30px 8px;
 }
 
 .tutorial-card p {
   font-size: 14px;
   line-height: 1.6;
-  opacity: 0.6;
+  margin: 0 30px 20px;
+}
+
+
+.tutorial-play {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  
+}
+
+
+.philip {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.philip img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+
+.philip span {
+  color: #c271ff;
+  font-weight: 600;
+}
+
+
+.star {
+  display: flex;
+  align-items: center;
+  
+  margin-top: auto;
+}
+
+
+.star ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+
+.star span {
+  font-weight: 600;
+  color: #071629;
 }
 
 .membership {
