@@ -288,7 +288,7 @@ nav {
   width: 22%;
   display: inline-block;
   margin: 0 auto;
-  color: white;
+  color: #ffffff;
 }
 
 .membership-item img {
@@ -303,17 +303,15 @@ nav {
 
 .membership-item p {
   font-size: 14px;
-  opacity: 0.5;
 }
 
 
 .membership-btn {
   background-color: #c271ff;
-  color: white;
-  border: none;
-  padding: 12px 30px;
+  color: #ffffff;
+  border: 0;
+  padding:  30px;
   border-radius: 20px;
-  cursor: pointer;
   font-size: 14px;
 }
 
@@ -375,7 +373,7 @@ nav {
 
 .footer {
   background-color: #071629;
-  height: 249px;
+  height: 250px;
   padding: 20px;
 }
 
