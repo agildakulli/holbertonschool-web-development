@@ -108,3 +108,251 @@ nav {
 .student>p {
     text-align: center;
 }
+.testimonial {
+  background-color: #c271ff;
+  padding: 80px 0;
+}
+
+
+.testimonial__wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.testimonial__wrapper img {
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.testimonial__wrapper div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 65%;
+  margin-left: 40px;
+  color: white;
+}
+
+
+.testimonial blockquote {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.testimonial__author {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.testimonial__role {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.tutorials {
+  padding: 80px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+.tutorials-title {
+  font-size: 32px;
+  margin-bottom: 60px;
+  color: #071629;
+}
+
+
+.tutorials-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.tutorial-card {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1%;
+  text-align: left;
+}
+
+
+.tutorial-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+.tutorial-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.6;
+}
+
+.membership {
+  background-color: #071629;
+  padding: 80px 0;
+  text-align: center;
+}
+
+
+.membership-title {
+  color: #c271ff;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+
+.membership-items {
+  width: 80%;
+  margin: 0 auto 60px auto;
+}
+
+
+.membership-item {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1%;
+  color: white;
+}
+
+.membership-item img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.membership-item h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.membership-item p {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+
+.membership-btn {
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+.faq {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.faq-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+
+
+.faq-section {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;  
+  
+}
+
+
+.faq-row {
+  width: 100%;
+  margin-bottom: 70px;
+  overflow: hidden;  
+}
+
+
+.faq-item {
+  width: 45%;
+}
+
+
+.faq-item.left {
+  float: left;
+}
+
+.faq-item.right {
+  float: right;
+}
+
+
+.faq-item >h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.faq-item >p {
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 0.5;
+}
+
+
+.footer {
+  background-color: #071629;
+  height: 249px;
+  padding: 20px;
+}
+
+
+
+.footer-logo {
+  display: block;
+  float: left;
+  margin-left: 160px;
+   margin-top: 60px;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+
+.footer-social {
+  display: block;
+  float: right;
+  margin-right: 160px;
+   margin-top: 50px;
+}
+
+
+.footer-social li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.footer-social img {
+  width: 20px;
+}
+
+.footer-copy {
+  width: 100% ;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 12px;
+  color: #ffffff;
+}
